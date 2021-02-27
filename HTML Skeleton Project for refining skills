@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- HTML HEAD SECTION USMAN  -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="This is a skeleton page for a mini HTML project">
+    <meta name="keywords" content="Best website ever, I love cats a lot">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini HTML project</title>
+</head>
+<!-- The main body of the code  -->
+
+<body>
+    <!-- introduction -->
+    <div>
+        <h3>Hey welcome to the Form filling section for College</h3>
+        <span>Here you will be filling out the required information needed by our support team to verify you for the
+            system
+            applications
+        </span>
+        <br>
+        <span>Please make sure that your are filling out the correct information as we won't be responsible for any
+            error in applications</span>
+    </div>
+    <br>
+    <!-- the form  -->
+    <div>
+        <form action="some-file-that-doesnt-exist.php">
+            <div>
+                <label for="nameS">Name : </label>
+                <input type="text" name="myName" id="nameS">
+            </div>
+            <br>
+            <div>
+                <label for="email">Email : </label>
+                <input type="email" name="eMAILs" id="email">
+            </div>
+            <br>
+            <div>
+                <label for="ageS">Age : </label>
+                <input type="number" name="myAge" id="ageS">
+            </div>
+            <br>
+            <div>
+                <label for="cnic">CNIC/B-Form no. : </label>
+                <input type="text" name="myCNIC" id="cnic">
+            </div>
+            <br>
+            <div>
+                <label for="fname">Father's Name : </label>
+                <input type="text" name="fnameS" id="fname">
+            </div>
+            <br>
+            <div>
+                <label for="marks">Matric Marks : </label>
+                <input type="number" name="matricMarks" id="marks">
+            </div>
+            <br>
+            <div>
+                <label for="preference">Preference of study </label>
+                <select name="Pref" id="preference">
+                    <option value="Fsc"> Fsc Pre-Engineering</option>
+                    <option value="ICS">Intermediate in Computer Science</option>
+                    <option value="Pre-Med">Pre-Medical College</option>
+                </select>
+            </div>
+            <br>
+            <div>
+                <label for="about">About yourself : </label><br>
+                <textarea name="aboutY" id="about" cols="30" rows="10"></textarea>
+            </div>
+            <br>
+            <div>
+                Male : <input type="radio" name="myGender" id="gender"> Female : <input type="radio" name="myGender"
+                    id="genderf">
+            </div>
+            <br>
+            <div>
+                Reset : <input type="reset" value="Reset Now"> Submit :<input type="submit" value="Submit Now">
+            </div>
+        </form>
+    </div>
+    <!-- The best coders of BU  -->
+    <div>
+        <h3>Following is a list of our best graduates and the most brilliant minds of Pakistan</h3>
+        <table style="border: 2px solid black;">
+            <thead>
+                <tr>
+                    <th style="border: 2px solid black;">Name</th>
+                    <th style="border: 2px solid black;">Age</th>
+                    <th style="border: 2px solid black;">Info</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td style="border: 1px solid black;">Usman</td>
+                    <td style="border: 1px solid black;">20</td>
+                    <td style="border: 1px solid black;">CS</td>
+                </tr>
+                <tr>
+                    <td style="border: 1px solid black;">Farhan</td>
+                    <td style="border: 1px solid black;">22</td>
+                    <td style="border: 1px solid black;">CS</td>
+                </tr>
+                <tr>
+                    <td style="border: 1px solid black;">Awais</td>
+                    <td style="border: 1px solid black;">21</td>
+                    <td style="border: 1px solid black;">CS</td>
+                </tr>
+                <tr>
+                    <td style="border: 1px solid black;">Sameer</td>
+                    <td style="border: 1px solid black;">22</td>
+                    <td style="border: 1px solid black;">CS</td>
+                </tr>
+            </tbody>
+        </table>
+
+    </div>
+    <br>
+    <!-- Random image from unsplash -->
+    <div>
+        <h3>And here at the bottom we have random images of cats from unsplash. Those guys are amazing</h3>
+        <br>
+        <img src="https://source.unsplash.com/350x350/?cat paws,cats
+    " alt="The image could not be loaded">
+    </div>
+</body>
+</html>
